@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+  }
+  
+  html, body {
+    background-color: #334FFF;
+    margin: 10px;
+  }
+  
+  .container > div:nth-child(1) {
+    background-color: #334FFF;	
+  }
+  
+  .container > div:nth-child(2) {
+    background-color: #334FFF;
+  }
+  
+  .container > div:nth-child(3) {
+    background-color: ##334FFF;
+  }
+
+  .container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    justify-content: space-around; /* try to change this to center for example */
+  }
+
+  .container1 {
+    border: 5px solid #ffcc5c;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+    display: flex;
+    justify-content: space-around; /* try to change this to center for example */
+  }
+
+  .container2 {
+    border: 5px solid #ffcc5c;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+    display: flex;
+    justify-content: space-around; /* try to change this to center for example */
+  }
+  
+  .container3 {
+    border: 3px solid #ffcc5c;
+    padding: 5px;
+    text-align: right;
+    font-size: 2em;
+    color: #ffeead;
+    display: flex;
+    justify-content: right; /* try to change this to center for example */
+  }
+  .home {
+    margin-right: auto;
+  }
+  
+  /* Sign up for the full Flexbox course here:
+  http://eepurl.com/dhjgB5
+  */
